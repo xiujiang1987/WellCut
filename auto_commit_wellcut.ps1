@@ -1,5 +1,5 @@
 # Change directory to the repository
-Set-Location "D:\Github_Project\WellCut"
+Set-Location "D:\AI_Park\Github_Project\personal_projects\WellCut"
 
 # Stage all changes
 git add .
@@ -15,9 +15,8 @@ if ($status) {
     Write-Host "Changes committed: $commitMessage"
 
     # Push the changes to the remote repository
-    # Note: Assumes remote 'origin' and branch 'main' will be set up later.
-    # git push origin main
-    # Write-Host "Attempted push to origin/main."
+    git push origin main
+    Write-Host "Changes pushed to origin/main."
 } else {
     Write-Host "No changes to commit."
 }

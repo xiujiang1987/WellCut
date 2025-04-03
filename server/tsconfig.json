@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true, // 允許導入 JSON 檔案
+    "moduleResolution": "node" // 確保使用 Node.js 模組解析
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
